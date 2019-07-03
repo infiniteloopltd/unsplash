@@ -58,6 +58,11 @@
                 <div class="col-md-5 col-md-offset-3" id="divResults">
                 </div>
             </div>
+            <div class="row">
+                <div class="col-md-5 col-md-offset-3" id="divResults">
+                    Developed by <a href="http://www.infiniteloop.ie">Infiniteloop.ie</a>
+                </div>
+            </div>
         </div>
     </div>
 </div>
@@ -66,7 +71,7 @@
     <div class="list-group">
         {{#results}}
         <a href="{{urls.full}}" class="list-group-item" target="_blank">
-            <img src="{{urls.thumb}}" style="border-radius: 50%; width: 100px; height: 100px; padding-right:10px" >{{alt_description}}
+            <img src="{{urls.thumb}}" style="width: 100px; height: 100px; padding-right:10px" >{{alt_description}}
             <span class="badge badge-dark">{{likes}} Likes</span>          
         </a>
         {{/results}}
